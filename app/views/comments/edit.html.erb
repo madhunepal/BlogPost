@@ -1,0 +1,6 @@
+<H1> Edit Comment</H1>
+
+<%= somple_form_for([@message, @comment]) do |f| %>
+<%= f.input :content, label: "Comment" %>
+<%= f.button :submit %>
+<% end %>

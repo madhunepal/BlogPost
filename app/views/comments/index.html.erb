@@ -1,0 +1,7 @@
+<h1>This is index view</h1>
+<% @comment.each do |comment| %>
+<h2><%= message.title %></h2>
+<%= link_to "View Comment", comment_path(comment), class: "btn btn_default" %>
+<% end %>
+
+# <%= link_to "New Message", new_message_path %>
